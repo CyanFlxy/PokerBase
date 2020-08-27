@@ -8,7 +8,6 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 
-import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 
 /**
@@ -71,11 +70,13 @@ public class Card implements Parcelable {
 
     public static Card getRedJoker() {
         // 大王卡牌，当前没有该卡牌图片
+
         return null;
     }
 
     public static Card getBlackJoker() {
         // 小王卡牌，当前没有该卡牌图片
+
         return null;
     }
 
