@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="card_heart_1" format="reference" />
+    <attr name="card_heart_2" format="reference" />
+    <attr name="card_heart_3" format="reference" />
+    <attr name="card_heart_4" format="reference" />
+    <attr name="card_heart_5" format="reference" />
+    <attr name="card_heart_6" format="reference" />
+    <attr name="card_heart_7" format="reference" />
+    <attr name="card_heart_8" format="reference" />
+    <attr name="card_heart_9" format="reference" />
+    <attr name="card_heart_10" format="reference" />
+    <attr name="card_heart_11" format="reference" />
+    <attr name="card_heart_12" format="reference" />
+    <attr name="card_heart_13" format="reference" />
+
+    <attr name="card_spade_1" format="reference" />
+    <attr name="card_spade_2" format="reference" />
+    <attr name="card_spade_3" format="reference" />
+    <attr name="card_spade_4" format="reference" />
+    <attr name="card_spade_5" format="reference" />
+    <attr name="card_spade_6" format="reference" />
+    <attr name="card_spade_7" format="reference" />
+    <attr name="card_spade_8" format="reference" />
+    <attr name="card_spade_9" format="reference" />
+    <attr name="card_spade_10" format="reference" />
+    <attr name="card_spade_11" format="reference" />
+    <attr name="card_spade_12" format="reference" />
+    <attr name="card_spade_13" format="reference" />
+
+    <attr name="card_club_1" format="reference" />
+    <attr name="card_club_2" format="reference" />
+    <attr name="card_club_3" format="reference" />
+    <attr name="card_club_4" format="reference" />
+    <attr name="card_club_5" format="reference" />
+    <attr name="card_club_6" format="reference" />
+    <attr name="card_club_7" format="reference" />
+    <attr name="card_club_8" format="reference" />
+    <attr name="card_club_9" format="reference" />
+    <attr name="card_club_10" format="reference" />
+    <attr name="card_club_11" format="reference" />
+    <attr name="card_club_12" format="reference" />
+    <attr name="card_club_13" format="reference" />
+
+    <attr name="card_diamond_1" format="reference" />
+    <attr name="card_diamond_2" format="reference" />
+    <attr name="card_diamond_3" format="reference" />
+    <attr name="card_diamond_4" format="reference" />
+    <attr name="card_diamond_5" format="reference" />
+    <attr name="card_diamond_6" format="reference" />
+    <attr name="card_diamond_7" format="reference" />
+    <attr name="card_diamond_8" format="reference" />
+    <attr name="card_diamond_9" format="reference" />
+    <attr name="card_diamond_10" format="reference" />
+    <attr name="card_diamond_11" format="reference" />
+    <attr name="card_diamond_12" format="reference" />
+    <attr name="card_diamond_13" format="reference" />
+
+
+    <style name="CardTheme" />
+
+    <style name="Card.Front.Theme0" parent="CardTheme">
+        <item name="card_heart_1">@drawable/heart_1_0</item>
+        <item name="card_heart_2">@drawable/heart_2_0</item>
+        <item name="card_heart_3">@drawable/heart_3_0</item>
+        <item name="card_heart_4">@drawable/heart_4_0</item>
+        <item name="card_heart_5">@drawable/heart_5_0</item>
+        <item name="card_heart_6">@drawable/heart_6_0</item>
+        <item name="card_heart_7">@drawable/heart_7_0</item>
+        <item name="card_heart_8">@drawable/heart_8_0</item>
+        <item name="card_heart_9">@drawable/heart_9_0</item>
+        <item name="card_heart_10">@drawable/heart_10_0</item>
+        <item name="card_heart_11">@drawable/heart_11_0</item>
+        <item name="card_heart_12">@drawable/heart_12_0</item>
+        <item name="card_heart_13">@drawable/heart_13_0</item>
+
+        <item name="card_spade_1">@drawable/spade_1_0</item>
+        <item name="card_spade_2">@drawable/spade_2_0</item>
+        <item name="card_spade_3">@drawable/spade_3_0</item>
+        <item name="card_spade_4">@drawable/spade_4_0</item>
+        <item name="card_spade_5">@drawable/spade_5_0</item>
+        <item name="card_spade_6">@drawable/spade_6_0</item>
+        <item name="card_spade_7">@drawable/spade_7_0</item>
+        <item name="card_spade_8">@drawable/spade_8_0</item>
+        <item name="card_spade_9">@drawable/spade_9_0</item>
+        <item name="card_spade_10">@drawable/spade_10_0</item>
+        <item name="card_spade_11">@drawable/spade_11_0</item>
+        <item name="card_spade_12">@drawable/spade_12_0</item>
+        <item name="card_spade_13">@drawable/spade_13_0</item>
+
+        <item name="card_club_1">@drawable/club_1_0</item>
+        <item name="card_club_2">@drawable/club_2_0</item>
+        <item name="card_club_3">@drawable/club_3_0</item>
+        <item name="card_club_4">@drawable/club_4_0</item>
+        <item name="card_club_5">@drawable/club_5_0</item>
+        <item name="card_club_6">@drawable/club_6_0</item>
+        <item name="card_club_7">@drawable/club_7_0</item>
+        <item name="card_club_8">@drawable/club_8_0</item>
+        <item name="card_club_9">@drawable/club_9_0</item>
+        <item name="card_club_10">@drawable/club_10_0</item>
+        <item name="card_club_11">@drawable/club_11_0</item>
+        <item name="card_club_12">@drawable/club_12_0</item>
+        <item name="card_club_13">@drawable/club_13_0</item>
+
+        <item name="card_diamond_1">@drawable/diamond_1_0</item>
+        <item name="card_diamond_2">@drawable/diamond_2_0</item>
+        <item name="card_diamond_3">@drawable/diamond_3_0</item>
+        <item name="card_diamond_4">@drawable/diamond_4_0</item>
+        <item name="card_diamond_5">@drawable/diamond_5_0</item>
+        <item name="card_diamond_6">@drawable/diamond_6_0</item>
+        <item name="card_diamond_7">@drawable/diamond_7_0</item>
+        <item name="card_diamond_8">@drawable/diamond_8_0</item>
+        <item name="card_diamond_9">@drawable/diamond_9_0</item>
+        <item name="card_diamond_10">@drawable/diamond_10_0</item>
+        <item name="card_diamond_11">@drawable/diamond_11_0</item>
+        <item name="card_diamond_12">@drawable/diamond_12_0</item>
+        <item name="card_diamond_13">@drawable/diamond_13_0</item>
+    </style>
+
+
+    <style name="Card.Front.Full" parent="CardTheme">
+        <item name="card_heart_1">@drawable/heart_1_1</item>
+        <item name="card_heart_2">@drawable/heart_2_1</item>
+        <item name="card_heart_3">@drawable/heart_3_1</item>
+        <item name="card_heart_4">@drawable/heart_4_1</item>
+        <item name="card_heart_5">@drawable/heart_5_1</item>
+        <item name="card_heart_6">@drawable/heart_6_1</item>
+        <item name="card_heart_7">@drawable/heart_7_1</item>
+        <item name="card_heart_8">@drawable/heart_8_1</item>
+        <item name="card_heart_9">@drawable/heart_9_1</item>
+        <item name="card_heart_10">@drawable/heart_10_1</item>
+
+        <item name="card_spade_1">@drawable/spade_1_1</item>
+        <item name="card_spade_2">@drawable/spade_2_1</item>
+        <item name="card_spade_3">@drawable/spade_3_1</item>
+        <item name="card_spade_4">@drawable/spade_4_1</item>
+        <item name="card_spade_5">@drawable/spade_5_1</item>
+        <item name="card_spade_6">@drawable/spade_6_1</item>
+        <item name="card_spade_7">@drawable/spade_7_1</item>
+        <item name="card_spade_8">@drawable/spade_8_1</item>
+        <item name="card_spade_9">@drawable/spade_9_1</item>
+        <item name="card_spade_10">@drawable/spade_10_1</item>
+
+        <item name="card_club_1">@drawable/club_1_1</item>
+        <item name="card_club_2">@drawable/club_2_1</item>
+        <item name="card_club_3">@drawable/club_3_1</item>
+        <item name="card_club_4">@drawable/club_4_1</item>
+        <item name="card_club_5">@drawable/club_5_1</item>
+        <item name="card_club_6">@drawable/club_6_1</item>
+        <item name="card_club_7">@drawable/club_7_1</item>
+        <item name="card_club_8">@drawable/club_8_1</item>
+        <item name="card_club_9">@drawable/club_9_1</item>
+        <item name="card_club_10">@drawable/club_10_1</item>
+
+        <item name="card_diamond_1">@drawable/diamond_1_1</item>
+        <item name="card_diamond_2">@drawable/diamond_2_1</item>
+        <item name="card_diamond_3">@drawable/diamond_3_1</item>
+        <item name="card_diamond_4">@drawable/diamond_4_1</item>
+        <item name="card_diamond_5">@drawable/diamond_5_1</item>
+        <item name="card_diamond_6">@drawable/diamond_6_1</item>
+        <item name="card_diamond_7">@drawable/diamond_7_1</item>
+        <item name="card_diamond_8">@drawable/diamond_8_1</item>
+        <item name="card_diamond_9">@drawable/diamond_9_1</item>
+        <item name="card_diamond_10">@drawable/diamond_10_1</item>
+    </style>
+
+    <style name="Card.Front.Theme1" parent="Card.Front.Full">
+        <item name="card_heart_11">@drawable/heart_11_1</item>
+        <item name="card_heart_12">@drawable/heart_12_1</item>
+        <item name="card_heart_13">@drawable/heart_13_1</item>
+
+        <item name="card_spade_11">@drawable/spade_11_1</item>
+        <item name="card_spade_12">@drawable/spade_12_1</item>
+        <item name="card_spade_13">@drawable/spade_13_1</item>
+
+        <item name="card_club_11">@drawable/club_11_1</item>
+        <item name="card_club_12">@drawable/club_12_1</item>
+        <item name="card_club_13">@drawable/club_13_1</item>
+
+        <item name="card_diamond_11">@drawable/diamond_11_1</item>
+        <item name="card_diamond_12">@drawable/diamond_12_1</item>
+        <item name="card_diamond_13">@drawable/diamond_13_1</item>
+    </style>
+
+    <style name="Card.Front.Theme2" parent="Card.Front.Full">
+        <item name="card_heart_11">@drawable/heart_11_2</item>
+        <item name="card_heart_12">@drawable/heart_12_2</item>
+        <item name="card_heart_13">@drawable/heart_13_2</item>
+
+        <item name="card_spade_11">@drawable/spade_11_2</item>
+        <item name="card_spade_12">@drawable/spade_12_2</item>
+        <item name="card_spade_13">@drawable/spade_13_2</item>
+
+        <item name="card_club_11">@drawable/club_11_2</item>
+        <item name="card_club_12">@drawable/club_12_2</item>
+        <item name="card_club_13">@drawable/club_13_2</item>
+
+        <item name="card_diamond_11">@drawable/diamond_11_2</item>
+        <item name="card_diamond_12">@drawable/diamond_12_2</item>
+        <item name="card_diamond_13">@drawable/diamond_13_2</item>
+
+    </style>
+
+    <style name="Card.Front.Theme3" parent="Card.Front.Full">
+        <item name="card_heart_11">@drawable/heart_11_3</item>
+        <item name="card_heart_12">@drawable/heart_12_3</item>
+        <item name="card_heart_13">@drawable/heart_13_3</item>
+
+        <item name="card_spade_11">@drawable/spade_11_3</item>
+        <item name="card_spade_12">@drawable/spade_12_3</item>
+        <item name="card_spade_13">@drawable/spade_13_3</item>
+
+        <item name="card_club_11">@drawable/club_11_3</item>
+        <item name="card_club_12">@drawable/club_12_3</item>
+        <item name="card_club_13">@drawable/club_13_3</item>
+
+        <item name="card_diamond_11">@drawable/diamond_11_3</item>
+        <item name="card_diamond_12">@drawable/diamond_12_3</item>
+        <item name="card_diamond_13">@drawable/diamond_13_3</item>
+
+    </style>
+
+</resources>
