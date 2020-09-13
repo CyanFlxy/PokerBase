@@ -30,7 +30,7 @@ public class CardBackImage {
 
     private static final Drawable[] cardBackDrawable = new Drawable[CARD_BACK_IMAGE.length];
 
-    public static Drawable getBackImageId(Context context, int theme) {
+    public static Drawable getBackImage(Context context, int theme) {
         int id = CARD_BACK_IMAGE[theme];
 
         if (cardBackDrawable[theme] == null) {

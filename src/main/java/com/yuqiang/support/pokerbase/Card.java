@@ -19,7 +19,12 @@ import androidx.annotation.NonNull;
 public class Card implements Parcelable {
 
     private static final List<Card> allCards = new ArrayList<>(54);
+    private static final List<Card> allCardsWithoutJoker = new ArrayList<>(54);
     private static final Map<Suit, List<Card>> cardMap = new EnumMap<>(Suit.class);
+
+    private static final Card blackJoker = new Card(Suit.JOKER, 1);
+    private static final Card redJoker = new Card(Suit.JOKER, 2);
+
     private static final Card backCard = new Card(Suit.HEART, -1) {
         @Override
         public boolean isBack() {
@@ -40,6 +45,10 @@ public class Card implements Parcelable {
         }
 
         for (Suit suit : Suit.values()) {
+            if (suit == Suit.JOKER) {
+                continue;
+            }
+
             List<Card> cardList = new ArrayList<>();
             cardList.add(emptyCard);
 
@@ -49,7 +58,17 @@ public class Card implements Parcelable {
 
             cardMap.put(suit, cardList);
             allCards.addAll(cardList.subList(1, cardList.size()));
+            allCardsWithoutJoker.addAll(cardList.subList(1, cardList.size()));
         }
+
+        // 添加大小王
+        List<Card> cardList = new ArrayList<>();
+        cardList.add(emptyCard);
+        cardList.add(blackJoker);
+        cardList.add(redJoker);
+        cardMap.put(Suit.JOKER, cardList);
+        allCards.add(redJoker);
+        allCards.add(blackJoker);
     }
 
     public static Card getCard(Suit suit, int value) {
@@ -68,16 +87,18 @@ public class Card implements Parcelable {
         return new ArrayList<>(allCards);
     }
 
+    public static List<Card> getAllCardsWithoutJoker() {
+        return allCardsWithoutJoker;
+    }
+
     public static Card getRedJoker() {
         // 大王卡牌，当前没有该卡牌图片
-
-        return null;
+        return redJoker;
     }
 
     public static Card getBlackJoker() {
         // 小王卡牌，当前没有该卡牌图片
-
-        return null;
+        return blackJoker;
     }
 
     private final Suit suit;

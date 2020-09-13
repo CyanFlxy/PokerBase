@@ -106,7 +106,7 @@ public class CardFontImage {
         int style = FRONT_STYLE[styleIndex];
         initCardFrontStyle(style);
 
-        int index = card.getSuit().ordinal() * 13 + card.getValue() - 1;
+        int index = card.getSuit().getIndex() * 13 + card.getValue() - 1;
 
         if (cardImageId[index] == 0) {
             cardImageId[index] = getCardImage(context, card, style);
@@ -140,7 +140,11 @@ public class CardFontImage {
 
 
     private static int getCardImage(Context context, Card card, int style) {
-        int attr = attrMap.get(card.getSuit())[card.getValue() - 1];
+        int[] attrs = attrMap.get(card.getSuit());
+        if (attrs == null) {
+            return 0;
+        }
+        int attr = attrs[card.getValue() - 1];
         TypedArray a = context.obtainStyledAttributes(style, new int[]{attr});
         int id = a.getResourceId(0, 0);
         a.recycle();
